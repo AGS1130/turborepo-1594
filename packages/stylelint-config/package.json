@@ -1,0 +1,15 @@
+{
+  "name": "@project/stylelint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "tailwindcss.json"
+  ],
+  "dependencies": {
+    "stylelint-config-recommended": "8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

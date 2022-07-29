@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+coverage
+test-results
+
+# apps
+.next/
+out/
+build
+
+# packages
+dist
+
+# turbo
+.turbo
+
+# vercel
+.vercel

@@ -1,0 +1,21 @@
+{
+  "name": "@project/eslint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.31.0",
+    "@typescript-eslint/parser": "5.31.0",
+    "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.30.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

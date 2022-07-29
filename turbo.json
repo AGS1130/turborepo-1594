@@ -1,0 +1,32 @@
+{
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "test": {
+      "outputs": ["coverage/**"],
+      "dependsOn": []
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "dependsOn": ["^dev"],
+      "cache": false
+    },
+    "docs#dev": {
+      "dependsOn": ["web#dev"],
+      "outputs": ["storybook-static/**"]
+    },
+    "web#dev": {
+      "dependsOn": ["^dev"],
+      "outputs": [".next/**"]
+    },
+    "clean": {
+      "cache": false
+    }
+  },
+  "baseBranch": "origin/dev",
+  "globalDependencies": ["$GITHUB_TOKEN"]
+}

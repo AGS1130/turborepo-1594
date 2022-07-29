@@ -1,0 +1,27 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+test-results
+
+# apps
+.next/
+out/
+build
+
+# packages
+dist
+
+# misc
+*.js
+
+# local env files
+*.local
+.env
+
+# turbo
+.turbo
+
+# vercel
+.vercel

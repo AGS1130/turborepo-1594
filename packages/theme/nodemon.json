@@ -1,0 +1,5 @@
+{
+  "watch": ["plugin", "styles"],
+  "ext": "css,js",
+  "exec": "ts-node cli/index.ts && tsup plugin/index.js --format esm,cjs --dts"
+}

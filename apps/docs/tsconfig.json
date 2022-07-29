@@ -1,0 +1,5 @@
+{
+  "extends": "@project/tsconfig/base.json",
+  "include": [".storybook"],
+  "exclude": ["node_modules"]
+}
